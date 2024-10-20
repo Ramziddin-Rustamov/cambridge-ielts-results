@@ -28,6 +28,7 @@ if (isset($_POST['login'])) {
         // Redirect to the user's specific webpage
         if ($_SESSION['user']['email'] == 'admin@gmail.com') {
             header("Location: users.php");
+            exit();
         }
         header("Location: home.php");
         exit();
