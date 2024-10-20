@@ -1,0 +1,238 @@
+body {
+  padding: 3px;
+}
+.container {
+  padding: 15px;
+  max-width: 400px;
+  height: max-content;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.04);
+}
+
+.image_main_logo {
+  width: 213px;
+  height: 36px;
+}
+.input_email {
+  display: block;
+  height: 44px;
+  width: 92%;
+  padding-left: 7px;
+  border-radius: 4px;
+  border: 1px solid #9e9e9e;
+  background-color: #ffffff;
+  text-indent: 5px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgb(0 0 0 / 5%);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input_password {
+  display: block;
+  height: 44px;
+  width: 92%;
+  margin-bottom: 0;
+  padding-left: 7px;
+  border-radius: 4px;
+  border: 1px solid #9e9e9e;
+  background-color: #ffffff;
+  text-indent: 5px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgb(0 0 0 / 5%);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sign_in_button {
+  cursor: pointer;
+  min-width: 121px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.4);
+  color: #fff;
+  background-color: #0074bd;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: 64%;
+  margin-top: 13px;
+}
+
+.list_button {
+  display: inline-block; /* Makes the anchor behave like a block element */
+  padding: 10px 20px; /* Adds padding inside the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Text color */
+  text-align: center; /* Center-aligns text */
+  text-decoration: none; /* Removes underline from text */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.list_button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+.create_button {
+  background-color: #0074bd;
+  border-radius: 4px;
+  color: white;
+  height: auto;
+  line-height: 20px;
+  width: 92%;
+  outline: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border: none;
+  margin-left: 16px;
+}
+
+.main_logo {
+  margin: 17px 0 0 14px;
+}
+.span_sign_1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  color: #424242;
+  margin: 0 0 0 14px;
+}
+.email {
+  margin: 27px 0 0 16px;
+}
+.label_email {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #212121;
+  margin-bottom: 5px;
+}
+
+.password {
+  margin: 23px 0 3px 16px;
+}
+
+.label_password {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #212121;
+  margin-bottom: 5px;
+}
+.h2_sign_in {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #424242;
+  margin: 33px 0 0 17px;
+}
+
+.buttons_sign_in {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 23px 0 0 17px;
+  grid-row-gap: 25px;
+}
+.button_facebook {
+  background-image: url("../images/facebookSignIn.svg");
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  min-width: 80px;
+  position: static;
+  border: none;
+  border-radius: 8px;
+}
+.button_google {
+  background-image: url("../images/googleSignIn.svg");
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  min-width: 80px;
+  position: static;
+  border: none;
+  border-radius: 8px;
+}
+.button_apple {
+  background-image: url("../images/appleSignIn.svg");
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  min-width: 80px;
+  position: static;
+  border: none;
+  border-radius: 8px;
+}
+.button_microsoft {
+  background-image: url("../images/microsoftSignIn.svg");
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  min-width: 80px;
+  position: static;
+  border: none;
+  border-radius: 8px;
+}
+.button_staff {
+  background-image: url("../images/staffAccountSignIn.svg");
+  background-size: cover;
+  width: 170px;
+  height: 44px;
+  min-width: 80px;
+  position: static;
+  border: none;
+  border-radius: 8px;
+}
+.sign_line {
+  padding: 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 24px;
+  margin-top: 30px;
+}
+.do_have_account {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #212121;
+  margin-left: 85px;
+}
+
+@media only screen and (max-width: 900px) {
+  .buttons_sign_in {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 23px 0 0 0px;
+    grid-row-gap: 24px;
+    grid-column-gap: 2%;
+  }
+}

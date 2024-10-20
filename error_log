@@ -1,0 +1,239 @@
+[26-Sep-2024 21:51:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[26-Sep-2024 22:03:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[26-Sep-2024 22:04:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 11:58:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:03:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:06:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:10:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cpses_cam6m18qb2@localhost'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:10:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cpses_cam6m18qb2@localhost'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:12:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:16:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:16:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:17:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:17:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:18:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:19:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:26:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:31:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:31:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:33:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:34:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:35:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cpses_car5sjh1rw'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 12:41:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: YES) in /home/cambvfpx/public_html/database.php:6
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(6): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 6
+[02-Oct-2024 12:43:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:5
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(5): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 5
+[02-Oct-2024 12:44:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:5
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(5): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 5
+[02-Oct-2024 12:45:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:5
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(5): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 5
+[02-Oct-2024 12:49:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:6
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(6): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 6
+[02-Oct-2024 12:50:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogin'@'localhost' (using password: NO) in /home/cambvfpx/public_html/database.php:6
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(6): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 6
+[02-Oct-2024 12:57:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogindb'@'localhost' to database 'cambvfpx_userLogin' in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 13:05:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'cambvfpx_userLogindb'@'localhost' to database 'cambvfpx_userLogin' in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[02-Oct-2024 13:05:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection timed out in /home/cambvfpx/public_html/database.php:7
+Stack trace:
+#0 /home/cambvfpx/public_html/database.php(7): mysqli_connect()
+#1 /home/cambvfpx/public_html/index.php(20): require_once('/home/cambvfpx/...')
+#2 {main}
+  thrown in /home/cambvfpx/public_html/database.php on line 7
+[11-Oct-2024 14:27:42 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[11-Oct-2024 16:06:19 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[11-Oct-2024 16:07:43 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[11-Oct-2024 16:09:01 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[12-Oct-2024 03:44:13 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[14-Oct-2024 14:23:58 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[14-Oct-2024 14:24:01 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[14-Oct-2024 17:20:54 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 04:18:03 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 04:20:14 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 04:22:56 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 04:25:14 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 05:30:03 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 05:31:17 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 08:17:58 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 08:19:23 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 08:20:14 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 11:11:32 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 11:23:05 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 11:23:11 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 11:23:15 UTC] PHP Warning:  Undefined variable $webPage in /home/cambvfpx/public_html/index.php on line 36
+[15-Oct-2024 17:14:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'password' in 'where clause' in /home/cambvfpx/public_html/index.php:12
+Stack trace:
+#0 /home/cambvfpx/public_html/index.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/cambvfpx/public_html/index.php on line 12
+[15-Oct-2024 17:14:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'password' in 'where clause' in /home/cambvfpx/public_html/index.php:12
+Stack trace:
+#0 /home/cambvfpx/public_html/index.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/cambvfpx/public_html/index.php on line 12
+[15-Oct-2024 17:14:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'password' in 'where clause' in /home/cambvfpx/public_html/index.php:12
+Stack trace:
+#0 /home/cambvfpx/public_html/index.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/cambvfpx/public_html/index.php on line 12
+[15-Oct-2024 17:15:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'password' in 'where clause' in /home/cambvfpx/public_html/index.php:12
+Stack trace:
+#0 /home/cambvfpx/public_html/index.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/cambvfpx/public_html/index.php on line 12
+[15-Oct-2024 17:16:30 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 19
+[15-Oct-2024 17:26:20 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:26:21 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:26:33 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:26:34 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:27:24 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:27:25 UTC] PHP Warning:  Undefined array key "certificate" in /home/cambvfpx/public_html/table.php on line 13
+[15-Oct-2024 17:30:11 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 19
+[15-Oct-2024 17:44:56 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 19
+[15-Oct-2024 18:34:14 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 19
+[16-Oct-2024 06:41:14 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 06:56:53 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 07:08:21 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 07:14:25 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 07:17:56 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 08:05:54 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 09:25:10 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24
+[16-Oct-2024 09:26:11 UTC] PHP Warning:  Undefined array key "name" in /home/cambvfpx/public_html/index.php on line 24

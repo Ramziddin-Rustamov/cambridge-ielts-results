@@ -1,0 +1,560 @@
+@media only screen and (min-width: 900px) {
+  .header_1 {
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: #212121;
+    justify-content: end;
+  }
+  .jss18 {
+    margin-bottom: 14px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 24px;
+    background-color: #ffffff;
+    margin-top: 49px;
+    box-shadow: 0 2px 4px 0 #0000000a;
+  }
+  .navbar_hr {
+    height: 32px;
+    margin: 18px;
+    align-self: center;
+  }
+  .main_container {
+    display: flex;
+  }
+  .button_twitter {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 16px 0 0;
+  }
+  .button_linkedin {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 16px 0 0;
+  }
+  .button_youtube {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 17px 0 0;
+  }
+  .button_facebook {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 15px 0 0;
+  }
+  .button_instagram {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 31px 0 0;
+  }
+  .span_about {
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-right: 7px;
+    text-decoration: none;
+    padding-top: 13px;
+  }
+  .span_contactus {
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-right: 2px;
+    text-decoration: none;
+    padding-top: 13px;
+  }
+  .mycambridge_h1 {
+    color: #212121;
+    font-size: 19px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+  .left_content {
+    width: 256px;
+    height: 100%;
+    top: 0;
+    position: sticky;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .link_home {
+    border-color: #0076bd;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    padding-left: 11px;
+    padding-top: 0px;
+    background-color: #ffffff;
+    display: inline-flex;
+    height: 55px;
+    text-decoration: none;
+  }
+  .cont1 {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0 0px;
+    height: 100%;
+  }
+  .link_home_svg {
+    padding-top: 15px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #0076bd;
+    fill: currentColor;
+  }
+
+  .home_span_menu {
+    text-decoration: none;
+    color: #0076bd;
+    padding: 20px 0 0 5px;
+    font-weight: 700;
+  }
+
+  .cont2 {
+    display: flex;
+    align-items: center;
+    margin: 1px 0px 0 0px;
+    height: 100%;
+  }
+
+  .link_account {
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding-left: 11px;
+    padding-top: 0px;
+    background-color: #ffffff;
+    display: inline-flex;
+    height: 55px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .link_account_svg {
+    padding-top: 15px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #000000;
+    fill: currentColor;
+  }
+
+  .account_span_menu {
+    text-decoration: none;
+    color: #000000;
+    padding: 20px 0 0 5px;
+    font-weight: 700;
+  }
+  .svg_account_str {
+    width: 24px;
+    margin-left: 44%;
+  }
+  .h1_right_content {
+    color: #212121;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    margin: 34px 0px 0px 56px;
+  }
+  .h2_right_content {
+    color: #212121;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin: 34px 0 0 56px;
+  }
+
+  .img_grade_tran {
+    width: 31%;
+    border-radius: 2%;
+  }
+
+  .content_service {
+    margin: 33px 0 35px 54px;
+    width: 100%;
+  }
+
+  .right_content {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card_description {
+    background-color: white;
+    width: 29%;
+    margin-top: -40px;
+    z-index: 100;
+    position: relative;
+    padding: 1%;
+    border-radius: 10px;
+  }
+  .footer1 {
+    display: inline-flex;
+    margin: 3% 0 0 13%;
+    grid-column-gap: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+  .cambridge_img_last {
+    width: 195px;
+  }
+  .sert_img_last {
+    width: 86px;
+    margin-left: 15px;
+  }
+
+  .sertificate_boxs {
+    display: inline-flex;
+    padding-left: 0;
+  }
+
+  .footer2 {
+    display: inline-flex;
+    color: #ffffff;
+    width: 100% !important;
+    margin: 0px !important;
+    background-color: #212121;
+    padding-left: 25px;
+  }
+
+  .ul_footer2 {
+    display: inline-flex;
+    margin-left: 8%;
+  }
+
+  .li_head {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .li_footer1 {
+    margin-top: 10px;
+  }
+
+  .li_footer2 {
+    padding-right: 10px;
+  }
+
+  .service_link {
+    text-decoration: none;
+    color: #000000;
+  }
+  .navbar_mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header_1 {
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    width: 100%;
+    height: 44px;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    padding-left: 10px;
+    text-decoration: none;
+    background-color: #212121;
+    justify-content: start;
+  }
+  .jss18 {
+    margin-bottom: 14px;
+  }
+  .button_twitter {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 16px 0 0;
+  }
+  .button_linkedin {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 16px 0 0;
+  }
+  .button_youtube {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 17px 0 0;
+  }
+  .button_facebook {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 15px 0 0;
+  }
+  .button_instagram {
+    width: 33px;
+    border: 1px solid #424242;
+    cursor: pointer;
+    height: 33px;
+    flex: 0 0 auto;
+    padding: 0;
+    overflow: visible;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #212121;
+    border-radius: 50%;
+    margin: 5px 31px 0 0;
+  }
+  .span_about {
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-right: 7px;
+    text-decoration: none;
+    padding-top: 13px;
+  }
+  .span_contactus {
+    color: #ffffff !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 16px;
+    padding-right: 2px;
+    text-decoration: none;
+    padding-top: 13px;
+  }
+  .footer2 {
+    position: absolute;
+    display: inline-grid;
+    color: #ffffff;
+    width: 100% !important;
+    margin: 0px !important;
+    background-color: #212121;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    left: 0;
+  }
+
+  .ul_footer2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 5px;
+  }
+  .li_footer2 {
+    padding-right: 10px;
+    color: #ffffff !important;
+    display: inline-block;
+    font-family: "Poppins Medium";
+    font-size: 11px;
+  }
+  .navbar {
+    display: none;
+  }
+  .left_content {
+    display: none;
+  }
+  .navbar_mobile {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 20px 20px 0 #0000000a;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .right_content {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 10%;
+    z-index: 1;
+    padding-top: 6%;
+    padding-bottom: 12%;
+  }
+  .content_service {
+    text-align: center;
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    box-shadow: none;
+    border-radius: 6px;
+    flex-direction: column;
+    margin: 39px 0 0 25px;
+    text-decoration: none;
+  }
+  .img_grade_tran {
+    width: 100%;
+    border-radius: 2%;
+  }
+  .h1_navbar_mobile {
+    color: #212121;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-left: 22px;
+  }
+  .h1_right_content {
+    color: #212121;
+    font-size: 28px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin-left: 7%;
+  }
+  .h2_right_content {
+    color: #212121;
+    font-size: 28px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin: 37px 0 0 28px;
+  }
+  .service_link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 16px;
+    font-family: Source Sans Pro;
+  }
+  .card_description {
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+    position: relative;
+    padding-left: 6%;
+    text-align: left;
+    text-decoration: none;
+  }
+  .li_footer1 {
+    display: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .sertificate_boxs {
+    display: inline-flex;
+    margin: 0;
+    padding: 20px 0 25px 20px;
+  }
+  .sert_img_last {
+    width: 100px;
+    margin-left: 25px;
+  }
+  .li_head {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Poppins";
+    margin: 39px 0 0 -27px;
+  }
+  .cambridge_img_last {
+    width: 210px;
+  }
+}
