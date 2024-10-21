@@ -64,6 +64,7 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
         <div class="text-end mb-3">
             <!-- Right-aligned button container -->
             <a href="register.php" class="btn btn-primary py-2">Register New User</a> <!-- Bootstrap button -->
+            <a href="logout.php" class="btn btn-danger py-2">Exit (log out)</a> <!-- Bootstrap button -->
         </div>
         <?php
         if (isset($_SESSION['error'])) {
@@ -75,7 +76,7 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
             unset($_SESSION['success']);
         }
         ?>
-        <table class="table table-bordered">
+        <table class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>ID</th>
@@ -87,25 +88,25 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
             </thead>
             <tbody>
                 <?php foreach ($users as $user) : ?>
-                <?php
+                    <?php
                     // Skip admin user
                     if ($user['email'] == 'admin@gmail.com') {
                         continue;
                     }
                     ?>
-                <tr>
-                    <td><?php echo htmlspecialchars($user['id']); ?></td>
-                    <td><?php echo htmlspecialchars($user['email']); ?></td>
-                    <td><?php echo htmlspecialchars($user['password']); ?></td>
-                    <td>
-                        <a href="sertificates/<?php echo htmlspecialchars($user['certificate']); ?>"
-                            target="_blank">View Certificate</a>
-                    </td>
-                    <td>
-                        <a href="users.php?delete=<?php echo htmlspecialchars($user['id']); ?>" class="btn btn-danger"
-                            onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>
-                    </td>
-                </tr>
+                    <tr>
+                        <td><?php echo htmlspecialchars($user['id']); ?></td>
+                        <td><?php echo htmlspecialchars($user['email']); ?></td>
+                        <td><?php echo htmlspecialchars($user['password']); ?></td>
+                        <td>
+                            <a href="sertificates/<?php echo htmlspecialchars($user['certificate']); ?>"
+                                target="_blank">View Certificate</a>
+                        </td>
+                        <td>
+                            <a href="users.php?delete=<?php echo htmlspecialchars($user['id']); ?>" class="btn btn-danger"
+                                onclick="return confirm('Are you sure you want to delete this user?');">Delete</a>
+                        </td>
+                    </tr>
                 <?php endforeach; ?>
             </tbody>
 

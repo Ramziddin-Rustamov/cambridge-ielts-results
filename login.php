@@ -77,7 +77,7 @@ if (isset($_POST['login'])) {
                 <label class="label_password">Password</label>
                 <input class="input_password" id="input_password" required type="password" name="password">
             </div>
-            <a href="" class="forgotten_password">Forgotten password?</a><br>
+
             <button class="sign_in_button" type="submit" name="login">Sign in</button>
         </form>
         <!-- Additional content here -->
