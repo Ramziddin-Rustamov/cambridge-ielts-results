@@ -41,7 +41,7 @@ $certificate = $_SESSION['user']['certificate'];
                 <table class="table_transcript">
                     <thead class="thead_table">
                         <tr>
-                            <th class="txtNoWrap" scope="col">Request Date</th>
+                            <th class="txtNoWrap" scope="col">Request Date </th>
                             <th class="txtNoWrap" scope="col">Payment Date</th>
                             <th class="txtNoWrap" scope="col">Exam Series</th>
                             <th class="txtNoWrap" scope="col">Order Number</th>
@@ -55,7 +55,7 @@ $certificate = $_SESSION['user']['certificate'];
                             <th class="txtNoWrap" scope="col">10.10 2024</th>
                             <th class="txtNoWrap" scope="col">10.10.2024</th>
                             <th class="txtNoWrap" scope="col">D6898298</th>
-                            <th class="txtNoWrap" scope="col">8534567</th>
+                            <th class="txtNoWrap" scope="col">8534568</th>
                             <th class="txtNoWrap" scope="col">Active</th>
                             <th class="txtNoWrap" scope="col">UZ139 0442</th>
                             <th class="txtNoWrap" scope="col">
