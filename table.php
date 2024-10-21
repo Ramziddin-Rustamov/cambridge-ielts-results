@@ -33,7 +33,6 @@ $certificate = $_SESSION['user']['certificate'];
             </div>
             <div class="content_tran">
                 <h1>Transcript History</h1>
-                <button class="send_button">Send new transcript</button>
                 <button class="send_button">
                     <a href="logout.php">Logout</a>
                 </button>
