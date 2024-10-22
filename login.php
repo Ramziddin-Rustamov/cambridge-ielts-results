@@ -22,7 +22,9 @@ if (isset($_POST['login'])) {
         $_SESSION['user'] = [
             'email' => $row['email'],
             'name' => $row['name'],
-            'certificate' => $row['certificate']
+            'certificate' => $row['certificate'],
+            'request_date' => $row['request_date'],
+            'payment_date' => $row['payment_date']
         ];
 
         // Redirect to the user's specific webpage

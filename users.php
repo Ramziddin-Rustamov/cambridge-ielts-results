@@ -83,6 +83,8 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
                     <th>Email</th>
                     <th>Password</th>
                     <th>Certificate</th>
+                    <th>Request_date</th>
+                    <th>Payment_date</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -98,6 +100,8 @@ $users = $result->fetch_all(MYSQLI_ASSOC);
                         <td><?php echo htmlspecialchars($user['id']); ?></td>
                         <td><?php echo htmlspecialchars($user['email']); ?></td>
                         <td><?php echo htmlspecialchars($user['password']); ?></td>
+                        <td><?php echo htmlspecialchars($user['request_date']); ?></td>
+                        <td><?php echo htmlspecialchars($user['payment_date']); ?></td>
                         <td>
                             <a href="sertificates/<?php echo htmlspecialchars($user['certificate']); ?>"
                                 target="_blank">View Certificate</a>

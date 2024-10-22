@@ -1,6 +1,12 @@
 <?php
 session_start();
 
+if (isset($_SESSION['user']) && $_SESSION['user']['email'] -= 'admin@gmail.com') {
+    header("Location: users.php");
+    exit();
+}
+
+
 // Check if the user is logged in
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");
@@ -11,6 +17,8 @@ if (!isset($_SESSION['user'])) {
 $userName = $_SESSION['user']['name'];
 $userEmail = $_SESSION['user']['email'];
 $certificate = $_SESSION['user']['certificate'];
+$request_date = $_SESSION['user']['request_date'];
+$payment_date = $_SESSION['user']['payment_date'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,8 +60,8 @@ $certificate = $_SESSION['user']['certificate'];
                     </thead>
                     <tbody>
                         <tr>
-                            <th class="txtNoWrap" scope="col">10.10 2024</th>
-                            <th class="txtNoWrap" scope="col">10.10.2024</th>
+                            <th class="txtNoWrap" scope="col"><?php echo $request_date; ?></th>
+                            <th class="txtNoWrap" scope="col"><?php echo $payment_date; ?></th>
                             <th class="txtNoWrap" scope="col">D6898298</th>
                             <th class="txtNoWrap" scope="col">8534568</th>
                             <th class="txtNoWrap" scope="col">Active</th>

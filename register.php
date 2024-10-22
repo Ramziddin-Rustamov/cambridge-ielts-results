@@ -13,6 +13,8 @@ if (isset($_POST['register'])) {
     // Retrieve and sanitize input data
     $email = trim($_POST['userEmail']);
     $password = trim($_POST['password']);
+    $requestDate = trim($_POST['request_date']);
+    $paymentDate = trim($_POST['payment_date']);
     $certificateFile = $_FILES['filename'];
 
     // Check if the email is already registered
@@ -60,10 +62,11 @@ if (isset($_POST['register'])) {
     if (is_uploaded_file($certificateFile['tmp_name'])) {
         if (move_uploaded_file($certificateFile['tmp_name'], $targetFilePath)) {
 
-            $stmt = $conn->prepare("INSERT INTO userslist (email, password, certificate) VALUES (?, ?, ?)");
-            $stmt->bind_param("sss", $email, $password, $fileName);
+            $stmt = $conn->prepare("INSERT INTO userslist (email, password, certificate,request_date, payment_date)
+             VALUES (?, ?, ?, ?, ?)");
+            $stmt->bind_param("sssss", $email, $password, $fileName, $requestDate, $paymentDate);
             $stmt->execute();
-            $_SESSION['success'] = "you registered new user successfully !";
+            $_SESSION['success'] = "you have registered  a new user successfully !";
         } else {
             $_SESSION['error'] = "Failed to move uploaded file.";
             header("Location: register.php");
@@ -122,6 +125,14 @@ if (isset($_POST['register'])) {
             <div class="password">
                 <label class="label_password">Password</label>
                 <input class="input_password" id="input_password" required type="password" name="password">
+            </div>
+            <div class="password">
+                <label class="label_password">Request Date</label>
+                <input class="input_password" id="input_password" required type="text" name="request_date">
+            </div>
+            <div class="password">
+                <label class="label_password">Payment Date</label>
+                <input class="input_password" id="input_password" required type="text" name="payment_date">
             </div>
             <div class="password">
                 <label class="label_password">Upload your file (PDF only)</label>
